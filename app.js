@@ -35,9 +35,9 @@ const signup = (req, res) => {
     };
 
     //Api authentication
-    const listID = "5883baaa6b";
-    const allocatedServer = 10;
-    const apiKey = "dd71887642f56e1beb777f3eeb0e0077-us10";
+    const listID = "";
+    const allocatedServer = ;
+    const apiKey = "";
 
     // Use superagent to post data to MaiChimp api
     superAgent
