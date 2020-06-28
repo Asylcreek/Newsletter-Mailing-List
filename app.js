@@ -61,11 +61,6 @@ app.post("/failure", (req, res) => {
     res.redirect("/");
 });
 
-<<
-<< << < HEAD
 app.listen(process.env.PORT || 4000, () =>
     console.log("Server running on port 4000")
-); ===
-=== =
-app.listen(process.env.PORT || 4000, () => console.log("Server running on port 4000"));; >>>
->>> > 6952 fc7490ae14685369d99573d96a8dcab43485
+);
