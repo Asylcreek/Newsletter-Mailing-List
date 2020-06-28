@@ -35,9 +35,9 @@ const signup = (req, res) => {
     };
 
     //Api authentication
-    const listID = "5883baaa6b";
-    const allocatedServer = 10;
-    const apiKey = "fa877c5ce7acd0980e6f96d13afeb053-us10";
+    const listID = "";
+    const allocatedServer = ;
+    const apiKey = "";
 
     // Use superagent to post data to MaiChimp api
     superAgent
@@ -61,6 +61,11 @@ app.post("/failure", (req, res) => {
     res.redirect("/");
 });
 
+<<
+<< << < HEAD
 app.listen(process.env.PORT || 4000, () =>
     console.log("Server running on port 4000")
-);
+); ===
+=== =
+app.listen(process.env.PORT || 4000, () => console.log("Server running on port 4000"));; >>>
+>>> > 6952 fc7490ae14685369d99573d96a8dcab43485
